@@ -14,8 +14,8 @@ const Button = ({ children, className, onClick, ariaLabel }) => {
 };
 
 const App = () => {
-  const [minutes, setMinutes] = useState(25);
-  const [seconds, setSeconds] = useState(0);
+  const [minutes, setMinutes] = useState(0);
+  const [seconds, setSeconds] = useState(3);
   const [isActive, setIsActive] = useState(false);
   const audioRef = React.createRef();
 
